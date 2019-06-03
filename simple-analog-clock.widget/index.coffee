@@ -7,28 +7,28 @@ options =
   pos:
     x: "left: 50px"
     y: "top: 40px"
-  size: 480 # width of the clock in px
-  scale: 0.4  # for retina displays set to 2
+  size: 200 # width of the clock in px
+  scale: 1  # for retina displays set to 2
   fontSize: 48   # in px
   secPtr:
     color: "rgb(209,97,143)" # css color string
-    width: 3     # in px
-    length: 180  # in px
+    width: 1     # in px
+    length: 80  # in px
   minPtr:
     color: "rgb(40,40,40)" # css color string
-    width: 2     # in px
-    length: 170   # in px
+    width: 1.2     # in px
+    length: 72   # in px
   hrPtr:
     color: "rgb(40,40,40)" # css color string
-    width: 2     # in px
-    length: 110   # in px
+    width: 1.2     # in px
+    length: 46   # in px
   markerOffset: 4 # offset from the border of the clock in px
   majorMarker:
-    width: 2      # in px
-    length: 60    # in px
+    width: 1.4      # in px
+    length: 25    # in px
   minorMarker:
-    width: 2      # in px
-    length: 40    # in px
+    width: 1      # in px
+    length: 17    # in px
   intervalLength: 30  # interval between the transition triggers in seconds
   backgroundBlur: false
 
